@@ -1,0 +1,9 @@
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+/* INTERNET EXPLORER 8 *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+html>body .formulario-div span.customSelect span,
+html>body .formulario-mas-info .formulario-div span.customSelect,
+html>body .formulario-mas-info .formulario-div span.customSelect span,
+html>body .formulario-div select, html>body .formulario-div input,
+html>body .formulario-mas-info .formulario-div span.customSelect,
+html>body, html>body .vagthin { font-family: 'Arial'\0/IE8+9; font-weight: normal\0/IE8+9;}

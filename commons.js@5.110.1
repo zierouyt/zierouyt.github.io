@@ -1,0 +1,271 @@
+function countCheckedValues(ctrl){
+	count = 0; 
+	if (ctrl.length != undefined){
+		for(i=0;i<ctrl.length; i++){
+			if (ctrl[i].checked) count++; 
+		}
+	}else{
+		if (ctrl.checked){
+			count = 1; 
+		} 
+	}
+	return count; 
+}
+
+// comprobar si un string es numerico
+function IsNumeric(sText){
+   var ValidChars = "0123456789";
+   var IsNumber=true;
+   var Char;
+
+   for (i = 0; i < sText.length && IsNumber == true; i++) { 
+      Char = sText.charAt(i); 
+      if (ValidChars.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+         }
+      }
+   return IsNumber;
+}
+
+// comprobar si un string es numerico
+function IsNumericFormat(sText){
+	var ValidChars = "0123456789.,";
+	var IsNumber=true;
+	var Char;
+	
+	for (i = 0; i < sText.length && IsNumber == true; i++) { 
+		Char = sText.charAt(i); 
+		if (ValidChars.indexOf(Char) == -1) 
+		{
+			IsNumber = false;
+		}
+	}
+	return IsNumber;
+}
+
+// Subir o bajar un elemento dentro de un select
+function Ordena(pSelectBox, pOffset){
+    var targetOption = pSelectBox.selectedIndex + pOffset;
+    var valor;
+    var texto;
+    var aux;
+    
+    if(pSelectBox.options.length == 0){
+    	alert("No existen elementos en el listado");
+    }else if(pSelectBox.selectedIndex == -1){
+    	alert("Debe seleccionar un elemento");
+    }else if( targetOption > -1 && targetOption < pSelectBox.options.length){
+		var indActual = pSelectBox.selectedIndex;	
+		var _oact = pSelectBox.options[indActual];
+		var _odst = pSelectBox.options[targetOption];
+		var oact = new Option(_oact.text, _oact.value, "", "");
+		var odst = new Option(_odst.text, _odst.value, "", "");
+		oact.setAttribute("name",_oact.getAttribute("name"));
+		odst.setAttribute("name",_odst.getAttribute("name"));
+		pSelectBox.options[indActual] = odst;
+		pSelectBox.options[targetOption] = oact;
+		pSelectBox.selectedIndex = targetOption;
+    }
+}
+
+// mueve un elemento entre dos select
+function Mueve(origen, destino){
+	
+	if (origen.value == undefined || origen.value == null  || origen.value == ""){
+		alert("Debe seleccionar un elemento a mover");
+		return;
+	}
+
+	destino.options.add(new Option(origen.options[origen.selectedIndex].text, origen.value));
+	origen.remove(origen.selectedIndex);
+}
+
+// Trim: espacios, tabuladores (\t) y saltos de l?nea (\r\n)
+String.prototype.trim = function(){
+	return this.replace(/^[\s\t\r\n]+|[\s\t\r\n]+$/g,'')
+}
+
+function pause(milliseconds){
+	var now = new Date();
+	var exitTime = now.getTime() + milliseconds;
+		
+	while(true){
+		now = new Date();
+		if(now.getTime() > exitTime) return;
+	}
+}
+
+function isValidFile(fileName){
+	var invalidFiles = new Array("ascx", "asp", "aspx", "bat", "cfc", 
+		"cfm", "cgi", "com", "dll", "exe", "jsp", "jspf", "lasso", "perl",  
+		"phtml", "php", "php3", "php5", "pl", "py", "reg");
+	
+	try{
+		if(fileName!=null && fileName!=""){
+			var i;
+			var name = fileName.toString().toLowerCase();
+			
+			for (i=0; i<invalidFiles.length; i++) {
+				if(name.indexOf("." + invalidFiles[i]) != -1){
+			    	return false;
+			    }
+			} 
+			return true;
+		}else{
+			return false;
+		}
+	}catch(err){
+		return false;
+	}
+}
+
+var formatosDeImagenPermitidos = "\nLos formatos de imagen permitidos son (jpg | gif | jpeg | png)";
+
+function isValidImage(fileName){
+	try{
+		var isValidFle = isValidFile(fileName);
+	
+		if(isValidFle){
+				var i;
+				var name = fileName.toString().toLowerCase();
+				var validImages = new Array("jpg", "gif", "jpeg", "png");
+				
+				for (i=0; i<validImages.length; i++) {
+					if(name.indexOf("." + validImages[i]) != -1){
+				    	return true;
+				    }
+				} 
+				return false;
+		}else{
+			return false;
+		}
+	}catch(err){
+		return false;
+	}
+}
+
+var formatosFlowPlayerPermitidos = "\nLos formatos de video permitidos son (flv | mp4 )";
+
+function isValid4FlowPlayer(fileName){
+	try{
+		var isValidFle = isValidFile(fileName);
+	
+		if(isValidFle){
+				var i;
+				var name = fileName.toString().toLowerCase();
+				var validImages = new Array("flv", "mp4");
+				
+				for (i=0; i<validImages.length; i++) {
+					if(name.indexOf("." + validImages[i]) != -1){
+				    	return true;
+				    }
+				} 
+				return false;
+		}else{
+			return false;
+		}
+	}catch(err){
+		return false;
+	}
+}
+
+var navigatorUserAgent = navigator.userAgent.toLowerCase();
+
+function isIENavigator(){
+	return navigatorUserAgent.indexOf("msie")!=-1;
+}
+
+function isIE7Navigator(){
+	return navigatorUserAgent.indexOf("msie 7")!=-1;
+}
+
+function isGeckoNavigator(){
+	return navigatorUserAgent.indexOf("gecko/")!=-1;
+}
+
+function isSafariNavigator(){
+	return navigatorUserAgent.indexOf("safari")!=-1;
+}
+
+function isOperaNavigator(){
+	return navigatorUserAgent.indexOf("opera")!=-1;
+}
+
+function getEditorValue( instanceName ){  
+  // Get the editor instance that we want to interact with.
+  var oEditor = FCKeditorAPI.GetInstance( instanceName ) ;
+  // Get the editor contents as XHTML.
+  return oEditor.GetXHTML( false ) ;  // "true" means you want it formatted.
+}
+
+function validarEmail(email){
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
+			return (true);
+	} else {
+			return (false);
+	}
+}
+
+function validarNIF(nif){
+	if (/^(X|x|\d{1})\d{7}\D{1}$/.test(nif)){
+			return (true);
+	} else {
+			return (false);
+	}
+}
+
+function validarFecha(fecha){
+	if (/^(3[01]|0?[1-9]|[12]\d)\/(0?[1-9]|1[012])\/\d{4}$/.test(fecha)){
+			return (true);
+	} else {
+			return (false);
+	}
+}
+
+$.fn.extend({
+    serializeObject: function () {
+        var obj = {};
+
+        $.each(this.serializeArray(), function (i, o) {
+            var n = o.name,
+                v = o.value;
+
+            obj[n] = obj[n] === undefined ? v
+                : $.isArray(obj[n]) ? obj[n].concat(v)
+                    : [obj[n], v];
+        });
+
+        return obj;
+    }, outerHTML: function () {
+        return (this[0]) ? this[0].outerHTML : '';
+    }
+});
+
+
+var CookieUtils = (function () {
+    return {
+        setCookie: function (cookieName, cookieValue, secondsToExpire) {
+            var d = new Date();
+            d.setTime(d.getTime() + (secondsToExpire * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
+        },
+        getCookie: function (cookieName) {
+            var name = cookieName + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    };
+
+}());

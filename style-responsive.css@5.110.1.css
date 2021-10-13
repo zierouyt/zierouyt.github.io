@@ -1,0 +1,497 @@
+/* Ã�NDICE
+02.  POPUPS GENERIC
+03.  POPUPS HELP
+04.  HEADER HELP
+
+*/
+@media ( min-width : 1190px) {
+	.headerFullWide .wrapper960, .mainMenu .wrapper960 {
+		width: 1100px;
+	}
+	#divLinkUp {
+		display: none !important;
+	}
+}
+
+@media ( max-width : 719px) {
+	.login-box-container .inner-box:before {
+		right:30%;
+	}
+	.headerFullWide {
+		height: 50px;
+	}
+	.headerFullWide .login .languageSelectorUL {
+		display: none;
+	}
+	.headerFullWide .login {
+		margin-top: 7px;
+	}
+	#principal {
+		width: 96% !important;
+		padding: 0 2% 2% !important;
+	}
+	#principal {
+		margin: 20px auto 85px;
+	}
+	.headerFullWide .wrapper960 {
+		width: 100% !important;
+		padding: 0 !important;
+		top: 0px;
+		overflow: visible;
+	}
+	#header.logo {
+		margin-top: 13px;
+		width: 50px;
+		left: 50px;
+	}
+	#cab_zona_1>p>a>img, #cab_zona_1>a>img, #cab_zona_1>img {
+		width: 100%;
+		height: auto;
+	}
+	.mainMenu .wrapper960 {
+		width: 100%;
+		background: #EAEAEA;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	div.zona4pie {
+		display: none;
+		clear: both;
+	}
+	#pagina:after {
+		height: 20px;
+	}
+	.headerFullWide .login #user-section:before, #user-section>div.floatLeft,
+		.headerFullWide .login #user-section #miCuenta, .login #login-section a.registro
+		{
+		display: none;
+	}
+	#opcionesMiCuenta {
+		right: 50px;
+		top: 30px;
+	}
+	#opcionesRegistro ul li {
+		padding: 13px 0 11px !important;
+	}
+	#main_menu, #web-menu-section {
+		display: none;
+		position: absolute !important;
+		z-index: 998;
+		width: 100%;
+	}
+	#web-menu-section {
+		background: #fff;
+		top: 50px !important;
+		margin: 0px !important;
+		z-index: 999;
+		-webkit-box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.3);
+		-moz-box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.3);
+		box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.3);
+		width: 300px;
+	}
+	.headerFullWide .login {
+		top: 7px;
+		left: 0px;
+		width: 100%;
+	}
+	#login-section, .mobileSection {
+		float: left;
+		right: 8px;
+		top: 2px;
+		margin: 0px;
+	}
+	#login-section>a, #user-section>div>a {
+		float: letf;
+	}
+	#login-section>a.acceder {
+		position: absolute;
+		right: 10px;
+	}
+	a.webMenuSection, a.acceder, #userIconNotification {
+		height: 35px;
+		width: 35px;
+		display: inline-block;
+		margin: 0 2px 0 10px !important;
+	}
+	a.webMenuSection {
+		background: url('icon-menu-mobile-white.svg') no-repeat center
+			center scroll #db2120;
+		height: 25px;
+		width: 25px;
+		position: relative;
+		top: 4px;
+		left: 4px;
+	}
+	a.acceder.webDisplay, a.registro.webDisplay {
+		display: none;
+	}
+	a.acceder {
+		background: url(user_w.svg) 50% 50% no-repeat;
+		background-size: 18px 18px;
+		background-size: 25px;
+		-webkit-border-radius: 0;
+		border-radius: 0;
+		box-shadow: none;
+		-webkit-box-shadow: 0;
+	}
+	#user-section a.acceder.logado {
+		background: url('ico-user-header-logged.png') no-repeat center
+			center scroll #FFF;
+	}
+	#userIcon {
+		display: none;
+	}
+	#userIconNotification {
+		background: url('ico-user-notification.png') no-repeat center
+			center scroll #FFF;
+		cursor: pointer;
+	}
+	a.acceder:before {
+		display: none !important;
+	}
+	a.acceder>span {
+		display: none;
+	}
+	#web-menu-section>ul {
+		padding: 0px 0 2% 2px;
+	}
+	.menuHead {
+		margin-left: 2% !important;
+		padding-bottom: 2%;
+	}
+	.menuHead li {
+		margin-left: 2% !important;
+	}
+	.menuHead ul li {
+		float: none;
+		display: list-item;
+		color: #696969;
+		margin-top: 5px !important;
+	}
+	.menuHead ul li a.active {
+		color: #D52B1E !important;
+		padding: 9px 7px 7px 5px;
+	}
+	.menuHead ul li>a.active:hover {
+		color: #D52B1E !important;
+		border: none;
+	}
+	.menuHead ul li a:hover {
+		color: #696969 !important;
+	}
+	.menuHead ul li a, .menuHead ul li a.active {
+		margin: 0px 13px;
+	}
+	.menuHead ul li a, .menuHead ul li a:hover, .menuHead ul li a.active {
+		padding: 9px 0px 7px 0px;
+	}
+	.menuHead ul li a.active:after {
+		display: none;
+	}
+	#mainMenu a {
+		background: url('menu_responsive_gris.png') no-repeat 96.7%
+			center scroll #EAEAEA;
+		color: #979797;
+		margin-top: 3px;
+		padding: 13px 2% 12px;
+		line-height: 15px;
+		font-size: 20px;
+		display: block;
+		font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+	}
+	#mainMenu a:hover {
+		text-decoration: none;
+	}
+	#mainMenu a.active {
+		background: url('menu_responsive_gris_close.png') no-repeat 96.7%
+			center scroll #EAEAEA;
+		border-bottom: 1px solid #C3C3C3;
+	}
+	.mainMenu ul li.opcionMenu {
+		display: list-item;
+		float: none;
+		border: none;
+		border-bottom: 1px solid #C3C3C3;
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+	.mainMenu a {
+		display: inline-block;
+		width: 90%;
+		padding: 13px 5%;
+	}
+	.mobileDisplay {
+		display: block;
+	}
+	.webDisplay {
+		display: none;
+	}
+
+	/*--------------------------------------------------------------------------correctivo pie 14.08.2015 LRP*/
+	#footer {
+		border: none !important;
+		margin: 0;
+		padding: 0;
+	}
+	.zona4pie {
+		display: block !important;
+		width: 100% !important;
+		height: auto;
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+	#pie_zona_1, #pie_zona_2 {
+		width: 100%;
+	}
+	#pie_zona_2>ul li, #pie_zona_2>ul li a {
+		width: 100%;
+		text-align: center;
+	}
+	#pie_zona_3 {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	#pie_zona_3 .socialMedia {
+		width: 100%;
+		margin: 0 auto;
+		padding: 15px 0 !important;
+	}
+	#pie_zona_3 .socialMedia ul {
+		margin: 0 auto;
+		padding: 0;
+		width: auto;
+		display: table;
+		float: none;
+	}
+	#pie_zona_3 .socialMedia ul li {
+		margin: 0 15px 0px;
+	}
+	#pie_zona_3 .menuFooter {
+		width: 100% !important;
+		margin: 0 auto;
+		padding: 5px 0 !important;
+	}
+	#pie_zona_3 .menuFooter ul {
+		margin: 8px auto 0;
+		padding: 0;
+		display: table;
+		float: none;
+	}
+	#footer .zona4oscuro {
+		height: 124px !important;
+		padding: 0 !important;
+	}
+	#pie_zona_4 .blogLinks ul li:nth-child(1), #pie_zona_4 .blogLinks ul li:nth-child(2),
+		#pie_zona_4 .blogLinks ul li:nth-child(3), #pie_zona_4 .blogLinks ul li:nth-child(4)
+		{
+		margin: 0 !important;
+		padding: 0 !important;
+		margin-top: 10px !important;
+		float: left;
+		width: 50%;
+	}
+	#pie_zona_4 .blogLinks ul li:nth-child(3) {
+		padding-top: 10px !important;
+	}
+	#pie_zona_4 div ul li a {
+		
+		width: 100%;
+		
+	}
+	#pie_zona_4>div>ul>li:nth-child(1)>a>img, #pie_zona_4>div>ul>li:nth-child(2)>a>img,
+		#pie_zona_4>div>ul>li:nth-child(3)>a>img, #pie_zona_4>div>ul>li:nth-child(4)>a>img
+		{
+		width: auto;
+		max-height: 50px;
+	}
+	#pie_zona_4>ul>li.primero, #pie_zona_4>ul>li.segundo, #pie_zona_4>ul>li.tercero,
+		#pie_zona_4>ul>li.acceso {
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 50% !important;
+		float: left;
+	}
+	#pie_zona_4>ul>li.primero>a, #pie_zona_4>ul>li.segundo>a, #pie_zona_4>ul>li.tercero>a,
+		#pie_zona_4>ul>li.segundo>a {
+		color: #4E4E4E !important;
+		padding-top: 5px;
+		float: left;
+		padding-left: 0px;
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+	#pie_zona_4>ul>li.primero div, #pie_zona_4>ul>li.segundo div,
+		#pie_zona_4>ul>li.tercero div {
+		display: none !important;
+	}
+	#pie_zona_4>ul li.acceso div {
+		background: none !important;
+	}
+	#pie_zona_4 .blogLinks {
+		height: 124px;
+	}
+	#pie_zona_4>ul {
+		padding: 15px 0 !important;
+		height: auto;
+	}
+	#pie_zona_4>ul>li.acceso>div, #pie_zona_4>ul>li.acceso>div a {
+		margin: 0;
+		padding: 0;
+	}
+	#pie_zona_4>ul>li a, #pie_zona_4>ul>li.acceso>div {
+		padding: 15px 0 !important;
+		text-align: center;
+		font-size: 14px !important;
+	}
+	#pagina, #casIframe {
+		height: auto;
+	}
+	#pie_zona_2 .socialMedia {
+		display: table;
+		padding: 20px 0 0;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+	#pie_zona_2 .socialMedia ul li {
+		padding: 0 20px !important;
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		#pie_zona_3 .socialMedia ul li {
+			margin: 0 12px !important;
+		}
+	}
+	@media ( max-width : 380px) {
+		/*
+	------------ 01.  BUTTON WITH LEGAL COPY  -----------------------------------------------------------
+	*/
+		.legal-copy {
+			font-size: 14px;
+		}
+	}
+	@media ( max-width : 733px) {
+		/* 03.  POPUPS HELP
+	################################# */
+		.ui-dialog.helpPopup {
+			width: 90% !important;
+		}
+	}
+	@media ( max-width : 480px) {
+		/* 02.  POPUPS GENERIC
+	################################# */
+		
+		.login-box-container .inner-box:before {
+			right:15%;
+		}
+		.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable
+			{
+			max-width: 90%
+		}
+
+		/* 04.  HEADER HELP
+	################################# */
+		.help-section a {
+			height: 40px;
+			font-size: 15px
+		}
+
+		/* 03.  POPUPS HELP
+	################################# */
+		.ui-dialog.helpPopup .ui-dialog-content {
+			padding: .5em 8px;
+		}
+	}
+	@media ( max-width : 479px) {
+		/* 04.  HEADER HELP
+	################################# */
+		.help-section {
+			width: 100%
+		}
+		.help-section a:first-child {
+			padding-left: 26px;
+			background-position: 9px center;
+			background-size: 15px auto;
+			padding-right: 0;
+		}
+		.help-section a+a {
+			width: 38px;
+		}
+	}
+	@media ( max-height : 580px) {
+		/* 03.  POPUPS HELP
+	################################# */
+		.popup_ayuda iframe {
+			height: 68vh;
+		}
+	}
+	@media ( max-width : 768px) {
+		.ui-dialog {
+			width: 95% !important;
+		}
+	}
+	@media ( max-width : 768px) {
+		#pie_zona_3 .span-8 {
+			width: 100%;
+		}
+		.zona4pie div {
+			width: auto !important;
+		}
+		#footer #iconosPagos ul li {
+			width: 16% !important;
+			padding: 2% !important;
+			height: auto;
+			border: none;
+			text-align: center;
+		}
+		#footer #iconosPagos ul li img {
+			width: 100%;
+		}
+		#footer .menuFooter ul.left.bgBlanco {
+			height: auto;
+			margin: 4% 2% 4% 2%;
+			width: 94%;
+		}
+		#footer div.atencion-cliente a.icon-tablet {
+			padding-top: 9px;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1.1em;
+		}
+		#footer  .menuFooter  li {
+			width: 94%;
+		}
+		.menuFooter .bgBlanco .icoPhone {
+			display: inline-block;
+			width: 28px !important;
+			margin-left: 15%;
+		}
+		.menuFooter .bgBlanco span {
+			display: inline-block;
+			position: relative;
+			top: -9px;
+			font-size: 1.5em;
+		}
+		#footer ul.socialMedia {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			float: none;
+			margin-bottom: 24px;
+		}
+		#footer .socialMedia li {
+			width: 20%;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+		#footer .socialMedia li a {
+			width: auto;
+			height: 40px;
+			padding-top: 14px;
+		}
+	}
+}

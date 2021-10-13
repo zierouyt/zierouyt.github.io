@@ -1,0 +1,243 @@
+var recipesDetail = (function($, window, document) {
+
+	var startOffset;
+	var minOffset;
+	var maxOffset;
+	var nItems;
+	var recipefilterType;
+	var currentRecipeId;
+	var loadLoggedFunctions;
+	var previousRecipe;
+	var previousRecipeOffset;
+	var nextRecipe;
+	var nextRecipeOffset;
+	var $detailContainer;
+
+	function initJqueryElements() {
+		$detailContainer = $("#detailContainer");
+	}
+
+	function initListeners() {
+		$("#previousRecipe").click(function() {
+
+			$formFilter = $("#formFilter");
+			$formFilter.attr("action",previousRecipe);
+	//		$formFilter.find("input#nItems").val(15);
+			$formFilter.find("input#offset").val(previousRecipeOffset);
+			$formFilter.submit();
+		});
+		$("#nextRecipe").click(function() {
+			
+			$formFilter = $("#formFilter");
+			$formFilter.attr("action",nextRecipe);
+	//		$formFilter.find("input#nItems").val(15);
+			$formFilter.find("input#offset").val(nextRecipeOffset);
+			$formFilter.submit();
+		});
+
+
+		$(".icon-facebook").click(function() {
+			var tituloReceta = $("#tituloCompartir").val();
+			var url = "https://www.facebook.com/sharer/sharer.php?u=https://recetas.dia.es/receta/" + tituloReceta;
+			window.open(url, '_blank');
+		});
+
+		$(".icon-twitter").click(function() {
+			var tituloReceta = $("#tituloCompartir").val();
+			var url = "https://twitter.com/home?status=https://recetas.dia.es/receta/" + tituloReceta;
+			window.open(url, '_blank');
+		});
+
+		$(".icon-imprimir").click(function() {
+			window.print();
+		});
+
+		$(".icon-whatsapp").click(function() {
+			var tituloReceta = $("#tituloCompartir").val();
+			var url = "https://web.whatsapp.com/send?l=en&text=https://recetas.dia.es/receta/" + tituloReceta;
+			window.open(url, '_blank');
+		});
+
+	}
+
+	function addValorationListeners(parent, nEstrellas) {
+		if (!loadLoggedFunctions) {
+			return;
+		}
+		// MouseOver
+		$(parent).find(".icon-valora").on("mouseover", function() {
+			var $this = $(this);
+
+			if (!checkVote()) {
+				$this.nextAll().removeClass("selected");
+				$this.prevAll().addClass("selected");
+				$this.addClass("selected");
+			}
+		});
+
+		// MouseLeave
+		$(parent).find(".icon-valora").on("mouseleave", function() {
+			var $this = $(this);
+
+			$this.nextAll().removeClass("selected");
+			$this.prevAll().removeClass("selected");
+			$this.removeClass("selected");
+
+			if (!checkVote()) {
+				$this.nextAll().removeClass("average");
+				$this.prevAll().removeClass("average");
+			}
+		});
+
+		$(parent).on("mouseleave", function() {
+			if (!checkVote()) {
+				setTimeout(function() {
+					setAverage(nEstrellas);
+				}, 300);
+			}
+		});
+
+		// Click
+		$(parent).find(".icon-valora").on("click", function() {
+			var $this = $(this);
+
+			if (!checkVote()) {
+				$this.addClass("active").siblings().removeClass("active");
+				return $.ajax({
+					method: "GET",
+					url: window.location.origin+ "/recetas.html?action=addValoration",
+					data: { recipeId: Number($("#principal").find("#idRecipe").val()), favourite: null, valoration: Number(this.id) },
+					traditional: true
+				}).done(function() {
+					setMessage("¡Gracias!");
+				}).fail(function(){
+					setMessage("Ya ha votado");
+				}).always(function(){
+					setAverage(nEstrellas);
+				});
+			} else {
+				setMessage("Ya ha votado");
+				setAverage(nEstrellas);
+			}
+		});
+	}
+
+
+	function buttonDisable() {
+		if (previousRecipe == null || previousRecipe== "") {
+			console.log("Primera Receta de la lista");
+			$("#previousRecipe").hide();
+			$(".icon-triangle-left").hide();
+		} else {
+			$("#previousRecipe").show();
+			$(".icon-triangle-left").show();
+
+		}
+		if (nextRecipe == null || nextRecipe == "") {
+			console.log("Ultima Receta de la lista");
+			$("#nextRecipe").hide();
+			$(".navigation-divider").hide();
+			$(".icon-triangle-right").hide();
+		} else {
+			$("#nextRecipe").show();
+			$(".navigation-divider").show();
+			$(".icon-triangle-right").show();
+
+		}
+	}
+
+	function checkVote() {
+		var $elements = $(".vote").find("i");
+		var voteCompleted = false;
+
+		$elements.each(function() {
+			if ($(this).hasClass("active")) {
+				voteCompleted = true;
+			}
+		});
+
+		return voteCompleted;
+	}
+
+	function setAverage(number) {
+		var $elements = $(".vote").find("i");
+
+		$elements.each(function(index) {
+			$(this).removeClass("selected");
+
+			if (index < number) {
+				$(this).addClass("average");
+			}
+		});
+	}
+
+	function setMessage(text) {
+		var $message = $(".message");
+
+		$message.text(text);
+		$message.fadeIn(700);
+
+		setTimeout(function() {
+			$message.fadeOut(500);
+		}, 2000);
+	}
+
+	function addFavouriteListeners(parent) {
+        var handler;
+        if (loadLoggedFunctions) {
+            handler = function (event) {
+                var $this = $(this);
+                var recipeId = document.getElementById("idRecipe").value;
+                if ($this.hasClass("selected")) {
+                    setFavourite(recipeId, false).done($this.removeClass("selected"));
+                } else {
+                    setFavourite(recipeId, true).done($this.addClass("selected"));
+                }
+                event.stopPropagation();
+            };
+        } else {
+            handler = function (event) {
+                window.location.replace('/login.html');
+                event.stopPropagation();
+            };
+        }
+        $(parent).find("#icon-favourite-mobile").click(handler);
+        $(parent).find("#icon-favourite-desktop").click(handler);
+	}
+
+	function setFavourite(recipeId, isFavourite) {
+		return $.ajax({
+			method: "POST",
+			url: window.location.origin+ "/recetas.html?action=addFavourites",
+			data: {
+				recipeId: recipeId,
+				favourite: isFavourite
+			}
+		}).fail(function(data) {
+			console.log(data);
+		});
+	}
+
+	return {
+		init: function(data) {
+			startOffset = data.startOffset;
+			minOffset = data.offset;
+			maxOffset = data.offset;
+			nItems = data.nItems;
+			recipefilterType = data.type;
+			currentRecipeId = data.idRecipe;
+			loadLoggedFunctions = data.loadLoggedFunctions;
+			previousRecipe = data.previousRecipe;
+			previousRecipeOffset = data.previousRecipeOffset;
+			nextRecipe = data.nextRecipe;
+			nextRecipeOffset = data.nextRecipeOffset;
+			initJqueryElements();
+			initListeners();
+			addValorationListeners("#estrellas", data.votar);
+			addFavouriteListeners("#photo-container");
+			addFavouriteListeners("#photo-container-mobile");
+			buttonDisable();
+        }
+    };
+}(window.jQuery, window, document));
+

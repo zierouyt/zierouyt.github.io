@@ -1,0 +1,3040 @@
+/* TIPOGRAF�A
+#################################################################### */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Black.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-ExtraBoldItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-BoldItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-ExtraLightItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Bold.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Light.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Italic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-BlackItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Medium.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-ExtraLight.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-ExtraBold.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-LightItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-SemiBold.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Regular.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-Thin.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-SemiBoldItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-MediumItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat/Montserrat-ThinItalic.woff2.html') format('woff2'),
+        url('font/Montserrat/Montserrat-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* #db2120 ROJO D�A #db2120 db2120 */
+
+/* �?NDICE
+
+01.  BUTTON WITH LEGAL COPY
+02.  GENERIC CONTENT PARAGRAPH
+03.  POPUPS HELP
+04.  HEADER HELP
+
+*/
+
+/* RESET CSS
+#################################################################### */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-webkit-text-stroke: 0px;
+	text-rendering: optimizeLegibility;
+	-webkit-text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	text-decoration: underline;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+.ui-widget-content {
+	background: white;
+	border: none !important;
+}
+
+@font-face {
+	font-family: "dia";
+	src: url("dia.eot@") format("eot"), url("dia.otf")
+		format("opentype"), url("dia.woff") format("woff"),
+		url("dia.ttf") format("truetype"),
+		url("dia.svg") format("svg");
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("fontawesome-webfont.eot@v=4.7.0"),
+		url("fontawesome-webfont.eot@")
+		format("embedded-opentype"),
+		url("fontawesome-webfont.woff2@v=4.7.0.html") format("woff2"),
+		url("fontawesome-webfont.woff@v=4.7.0") format("woff"),
+		url("fontawesome-webfont.ttf@v=4.7.0") format("truetype"),
+		url("fontawesome-webfont.svg@v=4.7.0")
+		format("svg");
+}
+/*2104 CAMBIO DE FUENTE a MONTSERRAT*/
+* {
+	font-family: 'Montserrat' !important;
+	font-weight:normal!important;
+}
+
+.vagbold{
+	font-family: 'Montserrat' !important;
+	font-weight:800!important;
+}
+strong, b {
+	font-family: 'Montserrat' !important;
+	font-weight:bold!important;
+}
+/*2104 CAMBIO DE FUENTE a MONTSERRAT*/
+.t28 {
+	font-size: 28px;
+}
+
+.t24 {
+	font-size: 24px;
+}
+
+.t7a7a7a {
+	color: #7a7a7a;
+}
+
+.t4e4f54 {
+	color: #4e4f54;
+}
+
+.t4d4f53 {
+	color: #4d4f53;
+}
+
+.t4e433b {
+	color: #4e433b;
+}
+
+.t737373 {
+	color: #737373;
+}
+
+.trojo {
+	color: #db2120;
+}
+
+.tblanco {
+	color: #FFFFFF;
+}
+
+.bgd62c1f {
+	background-color: #d62c1f;
+}
+
+.miclear, .clear {
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	float: none !important;
+}
+/*2104 cambio a montserrat bold*/
+label {
+	cursor: text;
+	font-family: 'Montserrat' !important;
+	font-weight:bold!important;
+	color: #585858;
+}
+/*2104 cambio a montserrat bold*/
+/*2104 cambio de color en t�tulos a 424242*/
+h1.vagbold {
+	color: #424242;
+	font-size: 30px;
+	margin-bottom: 16px;
+}
+/*2104 cambio de color en t�tulos a 424242*/
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h3.noIcon:before {
+	display: none !important;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+/* GENERAL
+#################################################################### */
+
+/* Bordes redondeados 6 */
+.borderRounded-6, .img-rounded img, img.img-rounded, .btnGenerico a,
+	.styledSelect, input.text, textarea.text, .bgGris, .bgBlanco, div.textArea,
+	.btnGris a, ul.listadoBlogs li, .columnaDerecha .idNumerico, ul.rounded li,
+	ul.rounded li a {
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+/* Bordes redondeados 10 */
+.borderRounded-10, .carrouWrap, #zona_2, #zona_3, #zona_4, #zona_6,
+	#zona_7, #zona_8, #zona_9, .buscadorWrapper, .columnaDerecha, .menuHead ul li a
+	{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+/* Transition 0.3 */
+/*.bgGris, .bgGris:hover, .bgAzul, .bgAzul:hover, a, a:hover, #zona_2,
+	#zona_3, #zona_4, #zona_5, #zona_6, #zona_7, #zona_8, #zona_9, #zona_2:hover,
+	#zona_3:hover, #zona_4:hover, #zona_5:hover, #zona_6:hover, #zona_7:hover,
+	#zona_8:hover, #zona_9:hover, .carrouWrap .carru-data span.carrusel-testimonios,
+	.carrouWrap .carru-data span.carrusel-testimonios:hover, .menuHead ul li a,
+	.menuHead ul li a:hover, .ofertaNormal, .ofertaDestacada, .ofertaNormal:hover,
+	.ofertaDestacada:hover, #eligeTiendaDIA>div>div:hover .icoMas,
+	#eligeTiendaDIA>div>div:hover .idNumerico, #eligeTiendaDIA>div>div .icoMas,
+	#eligeTiendaDIA>div>div .idNumerico, ul#bxcupones>li div.btnGenerico.borderRounded-6:hover,
+	ul#bxcupones>li div.btnGenerico.borderRounded-6:hover a, ul#bxcupones>li div.btnGenerico.borderRounded-6,
+	ul#bxcupones>li div.btnGenerico.borderRounded-6 a, .diaTiendaLeft input:hover,
+	.headerFullWide .login .languageSelectorUL>span, .headerFullWide .login .languageSelectorUL>span:hover
+	{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}*/
+/* Imagen top */
+div#imagenTop img, div#imagenTop {
+	width: 100%;
+	max-height: 90px;
+}
+
+/* Wrapper */
+#principal {
+	width: 976px;
+	margin: 40px auto 0;
+}
+
+.wrapper960 {
+	width: 976px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Directos */
+.padding20 { /* 	padding: 20px; */
+
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.displayNone {
+	display: none !important;
+}
+
+p {
+	cursor: text;
+}
+
+/* Bloques */
+.bgGris, .bgBlanco, .bgAzul {
+	background: #FAFAFA;
+	border: 1px solid #D0D0D0;
+	padding: 20px 15px;
+}
+
+.bgGris:hover {
+	-webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bgBlanco {
+	background: white;
+}
+
+.bgAzul {
+	background: #EFF4F7;
+	border-color: #EFF4F7;
+}
+
+.sombraBottom {
+	-webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bordeRojo {
+	border: 1px solid #db2120;
+}
+
+/* FIN Bloques */
+.btnGenerico {
+	display: inline-block;
+}
+
+.btnGenerico a, .btnGris a {
+	padding: 8px 10px 7px;
+	min-height: 15px;
+	font-family: 'Montserrat' !important;
+	font-weight:bold;
+	background: #db2120;
+	color: white !important;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.btnGris a {
+	background: #505050;
+}
+
+.btnGenerico.attCliente, .btnGenerico.dni {
+	margin: 15px 0 0 10px;
+}
+
+.btnGenerico.attCliente.aviso {
+	margin: 25px auto 10px;
+	display: table;
+}
+
+/* CAMBIO DE HOVER EN BOTONES */
+.btnGenerico a:hover, .btnGris a:hover {
+	color: white !important;
+	text-decoration: none !important;
+	background: #AA0100 !important;
+}
+
+.btnGris a:hover {
+	background: #343434 !important;
+}
+
+.styledSelect {
+	background: url('https://tutienda.dia.es/img/bg-select.png') no-repeat right 0 scroll white;
+	overflow: hidden;
+	border: 1px solid #A0A0A0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.styledSelect select {
+	background: transparent;
+	padding: 5px;
+	color: #585858;
+	font-size: 14px;
+	line-height: 1;
+	border: 0;
+	height: 28px;
+	width: 115%;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+input.text, textarea.text, div.textArea {
+	border: 1px solid #A0A0A0;
+	background: white;
+	color: #585858;
+	padding: 5px;
+	height: 18px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+div.textArea {
+	padding: 8px 5px 2px;
+}
+
+.agrupadoPor {
+	float: left;
+}
+
+.dosCol.first {
+	margin-right: 20px;
+}
+
+hr.dotted {
+	border: none;
+	border-bottom: 2px dotted #D0D0D0;
+}
+
+input:focus {
+	outline: none !important;
+	border: 1px solid #444;
+}
+
+#zona_1>p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+ul.rounded {
+	line-height: normal;
+}
+
+ul.rounded li {
+	margin: 10px 0;
+	background: #FAFAFA;
+	border: 1px solid #D0D0D0;
+}
+
+ul.rounded li a {
+	display: block;
+	padding: 14px 15px;
+	font-family: 'Montserrat' !important;
+	font-weight:bold!important;
+	color: #919191;
+}
+
+ul.rounded li a:hover {
+	color: #db2120;
+	text-decoration: none;
+	-webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cajaConImg>div>img {
+	margin: -9px 10px -25px -10px !important;
+}
+
+/* COMPARTIDO DE BLOG Y DETALLE
+################################# */
+ul.listadoBlogs {
+	float: right;
+}
+
+ul.listadoBlogs>li {
+	padding: 16px 190px 16px 60px;
+	margin: 10px 0;
+	background: #FAFAFA;
+	border: 1px solid #D0D0D0;
+}
+
+ul.listadoBlogs>li:first-child {
+	margin: 0 0 10px;
+}
+
+ul.listadoBlogs>li>a>p, ul.listadoBlogs>li>a {
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+	color: #919191;
+	display: block;
+	cursor: pointer;
+}
+
+/* STYLE DE POPUPS
+################################# */
+.ui-widget-overlay {
+	background: #000 !important;
+	opacity: 0.5 !important;
+	filter: Alpha(Opacity =                       50)
+		/*{opacityFilterOverlay}*/
+
+
+
+
+		            !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable,
+	.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.dialog-popupp.ui-resizable
+	{
+	padding: 0px;
+	border: 2px solid #DB2120 !important;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	text-align: left;
+	border: none;
+	color: #db2120;
+	background: white;
+	padding: 20px 22px 0 !important;
+	font-size: 22px;
+}
+/*montserrat bold*/
+.ui-dialog .ui-dialog-titlebar>span {
+	font-family: 'Montserrat' !important;
+	font-weight:bold;
+}
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close
+	{
+	background: url('https://tutienda.dia.es/img/close-popup.png') no-repeat 0 0 scroll
+		transparent;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border: none;
+	margin: -5px 2px 0 0;
+}
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close:hover
+	{
+	background: url('https://tutienda.dia.es/img/close-popup-h.png') no-repeat 0 0 scroll
+		transparent;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ui-dialog .ui-dialog-content {
+	color: #7A7A7A;
+	font-size: 17px;
+	margin: 10px 0 10px 5px;
+	line-height: 26px;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable .ui-dialog-buttonset button.ui-button
+	{
+	background: #db2120;
+	color: white;
+	border: none;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable .ui-dialog-buttonset button.ui-button:hover
+	{
+	background: #AA0100 none;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable .ui-dialog-buttonset button.ui-button>span
+	{
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	margin: 0 auto;
+	display: table;
+}
+
+#_mensaje, #_mensaje_confirm {
+	font-size: 16px;
+}
+
+.ui-button-text-only .ui-button-text {
+	padding: 7px 15px 6px !important;
+}
+
+textarea.textareaCopy {
+	border: 1px solid #A0A0A0;
+	margin: 20px 0 0;
+	resize: none;
+	width: 95%;
+	width: calc(100% -                       20px);
+	min-height: 45px;
+	padding: 10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.button-popup {
+	background: #DB2120 none;
+	text-shadow: none;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+	padding: 3px 10px;
+	text-align: center;
+	font-family: "Montserrat"!important;
+	font-weight: bold;
+	min-height: 41px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+.ui-dialog  p {
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	font-family: "Montserrat" !important;
+	color: #474c51;
+}
+/* STYLE DE POPUPS ALERT
+################################# */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.dialog-popup.ui-resizable
+	{
+	padding: 0px;
+	border: 1px solid #db2120;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.popUp.alert h2 {
+	color: #db2120;
+	text-align: left;
+	padding: 10px 0;
+	font-family: "Montserrat"!important;
+	font-weight: 800!important;
+}
+
+.popUp.alert p {
+	color: #575757;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.popUp.alert h2:before {
+	background: url('https://tutienda.dia.es/img/ico-alert.png') no-repeat 0 0 scroll transparent;
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin: -1px 10px;
+}
+
+.popUp.alert {
+	-webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#popup_alert_aviso_usuario+.ui-dialog-buttonpane {
+	display: none;
+}
+/* 03.  POPUPS HELP
+################################# */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable.helpPopup,
+	.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.dialog-popupp.ui-resizable.helpPopup
+	{
+	border: none !important
+}
+
+.helpPopup .ui-dialog-titlebar {
+	background-color: #db2120;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom: 1px solid #fff;
+	-webkit-box-shadow: 0 1px 2px 0 #949494;
+	box-shadow: 0 1px 2px 0 #949494;
+}
+
+.ui-dialog.helpPopup .ui-dialog-titlebar {
+	padding-top: 8px !important;
+	padding-bottom: 9px !important;
+}
+
+.ui-dialog.helpPopup .ui-dialog-title {
+	color: #fff;
+	text-align: center;
+	width: calc(100% - 20px);
+	font-size: 20px;
+}
+
+.popup_ayuda iframe {
+	height: 80vh;
+	width: 100%;
+}
+
+.ui-dialog.helpPopup .ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close
+	{
+	margin-top: -8px;
+	background-image: url('https://tutienda.dia.es/img/ico-close.png')
+}
+
+.ui-dialog.helpPopup .ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close:hover
+	{
+	opacity: 0.8
+}
+
+.ui-dialog.helpPopup .ui-dialog-content {
+	padding: .5em 1.8em;
+}
+
+/* 04.  HEADER HELP
+################################# */
+.help-section {
+	display: table;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	background-color: #c1b932
+}
+
+.help-section a {
+	display: table-cell;
+	height: 48px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #fff
+}
+
+.help-section a:first-child {
+	padding-left: 50px;
+	padding-right: 10px;
+	background: url('https://tutienda.dia.es/img/ico-info-light.png') no-repeat 16px center
+}
+
+.help-section a+a {
+	width: 45px;
+	background: url('https://tutienda.dia.es/img/ico-close-light.png') no-repeat center center;
+	text-indent: -1000px
+}
+
+.help-section a:hover {
+	opacity: 0.7;
+}
+
+/* Sticky footer
+################################# */
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#pagina {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -152px;
+}
+
+#pagina:after {
+	content: "";
+	display: block;
+}
+
+#pagina:after { /* .push must be the same height as footer */
+	height: 164px;
+}
+
+.zona4pie {
+	width: 100%;
+}
+
+/* STYLE DE MENU
+################################# */
+.mainMenu {
+	-webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #CECECE;
+}
+
+.mainMenu a {
+	font-family: 'Montserrat' !important;
+	font-weight:normal;
+	color: #959595;
+	font-size: 15px;
+}
+
+.mainMenu a:hover {
+	color: #db2120;
+	text-decoration: none;
+}
+
+.mainMenu span.menuIluminado a {
+	color: #db2120;
+}
+
+.mainMenu ul li.opcionMenu {
+	float: left;
+	display: inline;
+	margin: 17px 0 14px;
+	padding: 0 13px;
+	border-right: 1px solid #959595;
+}
+
+.mainMenu ul li.opcionMenu:first-child {
+	padding: 0 14px 0 0;
+}
+
+.mainMenu ul li.opcionMenu.last {
+	border-right: none;
+}
+
+/* STYLE DE CABECERA
+################################# */
+.headerFullWide {
+	/*background: #db2120;*/
+	height: auto;
+	width: 100%;
+}
+
+.headerFullWide .wrapper960 {
+	height: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#header.logo {
+	position: absolute;
+	margin: 14px 2px 8px;
+	float: left;
+	left: calc(50% - 40px);
+	background: url("https://tutienda.dia.es/img/diaminwhite.svg") 0 0 no-repeat;
+	background-size: contain;
+	width: 90px;
+	height: 41px;
+	top: 0;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#header.logo img {
+	display: none
+}
+
+body.safari {
+	width: 296px;
+}
+
+/*.headerFullWide .login a, .headerFullWide .login #user-section span {
+	color: #424242;
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+	margin: 0 0 0 10px;
+	font-size: 14px;
+}*/
+
+.headerFullWide .login #user-section #miCuenta {
+	float: left;
+	margin: 0 0 0 13px;
+	font-size: 14px;
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+}
+
+.headerFullWide .login #user-section #miCuenta:after {
+	content: url('https://tutienda.dia.es/img/user_menu00.png');
+	padding: 0 0 0 8px;
+}
+
+#opcionesMiCuenta, #opcionesRegistro {
+	background-color: #FFF;    
+	color: #606060;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+	min-width: 375px;
+	position: absolute;
+	display: block;
+	z-index: 101;
+	right: 4px;
+	font-size:14px;
+}
+#opcionesMiCuenta_mov{
+	background-color: #FFF;    
+	color: #606060;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+	min-width: 300px;
+	position: absolute;
+	display: block;
+	z-index: 101;
+	right: 4px;
+	font-size:14px;
+}
+#opcionesMiCuenta_mov a:before, #opcionesMiCuenta a:before{
+	margin-right: 10px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+#opcionesMiCuenta_mov a, #opcionesMiCuenta a{
+	color: #424242;
+	text-decoration: none;	
+	position: relative;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 17px 0;
+    display: block;
+}
+#opcionesMiCuenta_mov a.elperfil:before, #opcionesMiCuenta a.elperfil:before{
+	background-image: url('https://tutienda.dia.es/img/headeryfooter/svg_perfil.svg');
+	width:22px;
+	height: 24px;
+	content:"";
+}
+#opcionesMiCuenta_mov a.clubdia:before, #opcionesMiCuenta a.clubdia:before{
+	background-image: url('https://tutienda.dia.es/img/headeryfooter/club-dia-outline.svg');
+	width:24px;
+	height: 26px;
+	content:"";
+}
+#opcionesMiCuenta_mov a.listasGuardadas:before, #opcionesMiCuenta a.listasGuardadas:before{
+	background-image: url('https://tutienda.dia.es/img/headeryfooter/list.svg');
+	width:20px;
+	height: 22px;
+	content:"";
+}
+#opcionesMiCuenta_mov a.ultimasCompras:before, #opcionesMiCuenta a.ultimasCompras:before{
+	background-image: url('https://tutienda.dia.es/img/headeryfooter/purchases.svg');
+	width:22px;
+	height: 22px;
+	content:"";
+}
+#opcionesRegistro {
+	top: 32px;
+	right: 53px;
+}
+#opcionesRegistro ul li a {
+	margin: 0px;
+	color: #606060 !important;
+	font-family: 'Montserrat'!important;
+	font-weight:200!important;
+	font-size: 15px;
+	text-decoration: none !important;
+}
+#opcionesMiCuenta_mov ul li.exit_user, #opcionesMiCuenta ul li.exit_user{
+	border: 1px solid #424242 ;
+	border-radius: 7px;
+	text-align: center;
+	width: 50%;
+	margin: 20px auto 0px;
+}
+.login-box-container{
+	min-width: 375px;
+    position: absolute;
+    z-index: 1001;
+    right: 0;
+    padding-top: 14px;
+}
+.login-box-container .inner-box{
+	background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+    position: relative;
+}
+.login-box-container .inner-box div.login_buttons ul{
+	padding: 22px 19px 35px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+.login-box-container .inner-box:before{
+	border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10%;
+    transform: translateX(-50%);
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+}
+div.login_buttons ul li a.btn-login, div.login_buttons ul li  a.btn-registro{
+	width: 47%;
+    height: 48px;
+    padding: 0!important;
+    border-radius: 5px!important;
+    border: 1px solid #424242;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    transition: .2s linear all;
+    font-size: 16px!important;
+    font-weight: 500!important;
+}
+div.login_buttons ul li  a.btn-registro:hover{
+	background-color:black;
+	border: black;
+}
+
+/*#opcionesMiCuenta span, #opcionesRegistro span {
+	color: #DB2120 !important;
+	margin: 0px !important;
+	padding: 6px 0 11px;
+	color: #DB2120;
+	font-size: 15px !important;
+	display: block;
+	background: url('../img/user_menu01.png') no-repeat 100% center scroll
+		transparent;
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+}*/
+li.saludo_usuario{
+	padding-bottom: 22px;
+	padding-top: 8px;
+    border-bottom: 2px solid #e2dfdf;
+    text-align:center;
+    margin-bottom:12px;
+}
+#opcionesRegistro span {
+	padding: 6px 0 11px !important;
+}
+.headerFullWide .login .languageSelectorUL {
+	float: left;
+	display: block;
+	margin-left: 30px;
+	width: 108px;
+}
+
+.headerFullWide .login .languageSelectorUL>span {
+	color: white;
+	display: block;
+	font-size: 14px;
+	padding: 6px 18px 3px 28px;
+	margin: -6px 0 0;
+	background: url('https://tutienda.dia.es/img/ico-language.png') no-repeat left center scroll,
+		url('https://tutienda.dia.es/img/user_menu00.png') no-repeat 97% 11px scroll transparent;
+	background-size: auto auto, 8px auto;
+	overflow: visible;
+}
+
+.headerFullWide .login .languageSelectorUL>span:hover {
+	color: #d7d7d7;
+	cursor: pointer;
+}
+
+.headerFullWide .login .languageSelectorUL ul {
+	background: #fff;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 999;
+	right: -5px;
+	top: 3px !important;
+	width: 105px;
+	height: auto !important;
+}
+
+.headerFullWide .login .languageSelectorUL ul li {
+	display: block;
+	float: left;
+	width: 80%;
+	height: auto !important;
+	padding: 10px 10% 5px !important;
+}
+
+.headerFullWide .login .languageSelectorUL ul li span.lang {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 11px;
+	overflow: hidden;
+	background: url('https://tutienda.dia.es/img/flagssprite_small.png') no-repeat 0 0 scroll
+		transparent;
+}
+
+.headerFullWide .login .languageSelectorUL ul li span.lang.es {
+	background-position: -16px -154px;
+}
+
+.headerFullWide .login .languageSelectorUL ul li span.lang.en {
+	background-position: -16px -275px;
+}
+
+.headerFullWide .login .languageSelectorUL ul li span.lang.ca {
+	background-position: 0 -396px;
+}
+
+.headerFullWide .login .languageSelectorUL ul li a {
+	color: #444;
+	margin-left: 5px;
+}
+
+.headerFullWide .login #user-section span {
+	margin: 0 13px 0 0;
+}
+
+.headerFullWide .login #user-section {
+	color: #424242;
+	margin: -1px 0 0 0;
+	position:relative;
+}
+
+#userIcon {
+	content: '';
+	width: 22px;
+	height: 22px;
+	background: url('https://tutienda.dia.es/img/user_dia.svg') no-repeat 0 0 scroll
+		transparent;
+	display: block;
+	float: left;
+	margin: -4px 6px !important;
+}
+
+#userIcon.pellet {
+	background: url('https://tutienda.dia.es/img/user_dia_logged.svg') no-repeat 0 0
+		scroll transparent;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.login #login-section:before {
+	margin: -4px 0px;
+}
+
+.login #login-section a {
+	font-family: 'Montserrat'!important;
+font-weight:200!important;
+	position: relative;
+}
+
+.login #login-section a:hover {
+	text-decoration: none;
+	color: #D7D7D7;
+}
+
+#login-section>a.acceder {
+	margin-left: 49px;
+}
+
+#login-section>a.acceder:before, #login-section>a.registro:before {
+	content: '';
+	width: 25px;
+	height: 20px;
+	background: url('https://tutienda.dia.es/img/registro.png') no-repeat 0 0 scroll transparent;
+	display: block;
+	float: left;
+	position: absolute;
+	top: -2px;
+	left: -32px;
+}
+
+#login-section>a.acceder:before {
+	background: url(https://tutienda.dia.es/img/user_w.svg) 50% 50% no-repeat;
+	background-size: 18px 18px;
+}
+
+#login-section>a.registro:before {
+	background: url(https://tutienda.dia.es/img/register_w.svg) 50% 50% no-repeat;
+	background-size: 18px 18px;
+}
+
+#user-section>div.floatLeft {
+	font-size: 14px;
+}
+
+#user-section .separador {
+	background: white;
+	height: 13px;
+	width: 2px;
+	font-family: 'Montserrat' !important;
+	font-weight:700;
+	float: right;
+	margin: 0;
+}
+
+/*#web-menu-section.menuHead {
+	position: relative;
+	top: 50px;
+}*/
+
+.login-section {
+	margin: -2px 0 0 0;
+	position:relative;
+}
+
+.menuHead ul li {
+	display: inline;
+	height: 1px;
+}
+
+.menuHead ul li a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: normal;
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 400!important;
+	display: inline-block;
+	letter-spacing: 0.3px;
+	padding: 3px 7px 2px;
+	margin: 0 2px;
+	font-family: 'Montserrat' !important;
+}
+
+
+
+.menuHead ul li a:hover {
+
+}
+
+#mainMenu a, .mobileDisplay {
+	display: none;
+}
+
+.mobileDisplay {
+	display: none;
+}
+
+.webDisplay {
+	display: block;
+}
+
+a.acceder.webDisplay, a.registro.webDisplay {
+	display: inline;
+}
+
+.registro.webDisplay>span, .acceder.webDisplay>span {
+	position: relative;
+	top: -1px;
+	left: 1px;
+}
+
+@media only screen and (device-width: 768px) {
+	.headerFullWide, .zona4pie, .mainMenu {
+		width: 980px;
+	}
+	div#imagenTop {
+		min-width: 980px;
+	}
+	#login-section, .mobileSection {
+		width: 300px;
+		float: right;
+	}
+}
+
+.labels-marker {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Montserrat' !important;
+	color: white;
+}
+
+.labels-marker-cluster {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Montserrat' !important;
+	color: white;
+	padding-top: 16px;
+}
+
+@media screen and (min-width: 4324px) {
+	.menuHead ul li {
+		float: none;
+	}
+}
+
+/* STYLE DE PLUGINS RRSS
+################################# */
+.stButton .st-pinterest-counter, .stButton .st-email-counter, .stButton .st-yahoo-counter,
+	.stButton .st-linkedin-counter, .stButton .st-twitter-counter,
+	.stButton .st-facebook-counter {
+	height: 28px !important;
+	padding: 7px 0 0 !important;
+	width: 28px !important;
+}
+
+.st_googleplus_hcount .stButton>span>.stButton_gradient {
+	background: url("https://tutienda.dia.es/img/rrss/googleplus_counter.png") no-repeat
+		scroll 0 0 transparent;
+	border: 0 none;
+	float: left;
+	height: 28px;
+	padding: 0;
+	width: 28px;
+}
+
+.st_googleplus_hcount .stButton>span>.stButton_gradient .chicklets.googleplus
+	{
+	display: none;
+}
+
+.stButton .stArrow .stButton_gradient {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #BFBFBF;
+	padding: 2px 4px;
+}
+
+.st_facebook_hcount .stButton .stButton_gradient {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+}
+
+#social-share {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+#social-share>span {
+	float: left;
+}
+
+.st_googleplus_hcount .stButton .stArrow {
+	margin-top: 4px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#pie_zona_2 .socialMedia ul li {
+		padding-right: 7px !important;
+	}
+}
+
+.selector { #pie_zona_2 .socialMedia ul li{ padding-right:7px!important;
+
+}
+
+}
+
+/*
+------------ 01.  BUTTON WITH LEGAL COPY  -----------------------------------------------------------
+*/
+.legal-copy {
+	display: inline-block
+}
+
+.btn-inline {
+	margin-right: 10px
+}
+
+/*
+------------ 02.  GENERIC CONTENT PARAGRAPH  -----------------------------------------------------------
+*/
+.content-paragraph p {
+	margin-bottom: 15px;
+	color: #575757;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.content-paragraph h3 {
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+	margin: 15px 0;
+	color: #575757;
+}
+
+.content-paragraph  h2 {
+	margin-bottom: 15px;
+	font-family: 'Montserrat'!important;
+	font-weight: bold!important;
+	color: #DB2120;
+}
+
+.content-paragraph ul {
+	list-style-image: url('https://tutienda.dia.es/img/ico-list.png');
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.content-paragraph ul li {
+	padding: 5px 0;
+	margin-left: 13px;
+	line-height: 22px;
+}
+
+.content-paragraph a {
+	color: #DB2120;
+}
+
+.ayuda {
+	text-align: center;
+}
+
+#mybook .b-page .b-wrap {
+	background-color: white !important;
+}
+
+@media ( min-width : 720px) and (max-width: 1023px) {
+	#header.logo, .mainMenu {
+		padding-left: 15px;
+	}
+}
+
+/*---------------------------- nuevo FOOTER --------------------------------------*/
+.footer {
+	margin: 0 auto;
+	clear: both;
+	width: 976px;
+	background: #FFF;
+	overflow: hidden;
+	min-height: 350px;
+}
+
+.footer-block-title {
+	font-size: 16px;
+	font-weight: 400!important;
+	margin-left: 1.6em;
+	width: calc(100% - 3.2em);
+	margin-bottom: .8em;
+}
+
+.footer .yCmsContentSlot {
+	float: left;
+	width: 855px;
+}
+
+.wrapper960 {
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+	width: 990px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.menuFooter ul {
+	margin-top: 5px;
+}
+
+.menuFooter ul li, .menuFooter ul li a {
+	color: #444444;
+	font-family: "Montserrat", Calibri, 'Cabin', sans-serif;
+}
+
+.menuFooter ul li.last, .menuFooter ul li.logo {
+	border: 0;
+}
+
+.menuFooter {
+	border: 0;
+}
+
+.menuFooter ul.right {
+	float: right;
+}
+
+.menuFooter ul.right div {
+	color: #DB2120;
+	display: inline;
+}
+
+.menuFooter ul li.logo {
+	margin-bottom: 0 !important;
+	margin-left: 0px !important;
+	margin-right: 0 !important;
+	margin-top: 10px !important;
+	padding-bottom: 0 !important;
+	padding-left: 0px !important;
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+}
+
+.menuFooter ul.right li.logo div {
+	background:
+		url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/svg/logo-dia-red.svg)
+		no-repeat;
+	display: block;
+	width: 66px;
+	height: 21px;
+}
+
+#footer {
+	border-top: 1px solid #efefef;
+	margin: 40px 0 0;
+}
+
+#footer>div.footer-margin.wrapper960:after {
+	clear: both;
+	content: "";
+	display: block;
+	float: none !important;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+
+.footer-margin {
+	height: 0px;
+}
+
+.menuFooter ul {
+	margin: 5px 0 0 0;
+	list-style: none outside none;
+	padding: 0;
+}
+
+#pie_zona_1 div.atencion-cliente a {
+	color: rgb(68, 68, 68);
+	display: block;
+	height: 25px;
+	text-align: left;
+	text-decoration: none solid rgb(68, 68, 68);
+	width: auto;
+	column-rule-color: rgb(68, 68, 68);
+	perspective-origin: 62.6875px 16px;
+	transform-origin: 62.6875px 16px;
+	caret-color: rgb(68, 68, 68);
+	border: 0px none rgb(68, 68, 68);
+	font: normal normal 400 normal 13.3px/13px Montserrat, Calibri, Cabin,
+		sans-serif;
+	list-style: none outside none;
+	outline: rgb(68, 68, 68) none 0px;
+	padding: 7px 0px 0px;
+	transition: all 0.3s ease 0s;
+}
+
+#pie_zona_1 div.atencion-cliente a:after {
+	color: rgb(68, 68, 68);
+	text-align: left;
+	text-decoration: none solid rgb(68, 68, 68);
+	column-rule-color: rgb(68, 68, 68);
+	caret-color: rgb(68, 68, 68);
+	border: 0px none rgb(68, 68, 68);
+	font: normal normal 400 normal 13.3px/13px Montserrat, Calibri, Cabin,
+		sans-serif;
+	list-style: none outside none;
+	outline: rgb(68, 68, 68) none 0px;
+}
+
+#pie_zona_1 div.atencion-cliente a:before {
+	color: rgb(135, 135, 134);
+	content: 'u';
+	speak: none;
+	text-align: left;
+	text-decoration: none solid rgb(135, 135, 134);
+	vertical-align: middle;
+	column-rule-color: rgb(135, 135, 134);
+	perspective-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	caret-color: rgb(135, 135, 134);
+	border: 0px none rgb(135, 135, 134);
+	font: normal normal 400 normal 25.27px/25.27px dia;
+	list-style: none outside none;
+	outline: rgb(135, 135, 134) none 0px;
+}
+
+#pie_zona_1 ul {
+	padding: 12px 0 12px 50px;
+}
+
+#pie_zona_1 ul li {
+	padding: 0 20px 0 20px !important;
+	border-right: 1px solid #CECECE;
+}
+
+#pie_zona_1 ul li:last-child {
+	border: 0;
+}
+
+#pie_zona_1 img.footer_logo {
+	height: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+#pie_zona_1 img.footer_logo_finandia {
+	height: 14px;
+	padding-top: 6px;
+}
+
+#pie_zona_1 img.footer_logo_norton {
+
+}
+
+#pie_zona_1 img.footer_logo_mastercard {
+
+}
+
+#pie_zona_1 img.footer_logo_visa {
+	height: 16px;
+	padding-top: 4px;
+}
+
+#pie_zona_1 img.footer_logo_paypal {
+
+}
+
+#footer .socialMedia {
+	float: left;
+	margin: 10px 0px 0px 0px;
+}
+
+#footer .socialMedia li {
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+#footer .socialMedia li a {
+	display: block;
+	width: 30px;
+	height: 24px;
+	padding-top: 6px;
+	color: #fff;
+	background-color: #4E4E4E;
+	text-align: center;
+	font-family: "dia" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: middle;
+	font-size: 1.6em;
+}
+
+#footer .socialMedia li a.facebook:before {
+	content: "\45";
+}
+
+#footer .socialMedia li a.facebook:hover {
+	background-color: #3B5998;
+}
+
+#footer .socialMedia li a.twitter:before {
+	content: "\44";
+}
+
+#footer .socialMedia li a.twitter:hover {
+	background-color: #00B6F1;
+}
+
+#footer .socialMedia li a.youtube:before {
+	content: "\70";
+}
+
+#footer .socialMedia li a.youtube:hover {
+	background-color: #CC181E;
+}
+
+#footer .socialMedia li a.instagram:before {
+	content: "\6f";
+}
+
+#footer .socialMedia li a.instagram:hover {
+	background-color: #D34074;
+}
+
+#footer .socialMedia li a.googleplus:before {
+	content: "\6e";
+}
+
+#footer .socialMedia li a.googleplus:hover {
+	background-color: #DB4437;
+}
+
+/*div.zona3gris {
+	border-top: 1px solid #CECECE;
+	background: none repeat scroll 0 0 #F5F5F5;
+	height: autopx;
+	padding: 0;
+	width: 100%;
+}*/
+
+div.zona3gris .span-8 {
+	border-right: 1px solid #CECECE;
+	min-height: 280px;
+	width: 33%;
+	padding: 20px 0 20px 0;
+	margin: 0;
+	display: inline-table;
+}
+div.zona3gris .span-4col {
+	border-right: 1px solid #CECECE;
+	min-height: 280px;
+	width: 24%;
+	padding: 20px 0 20px 0;
+	margin: 0;
+	display: inline-table;
+}
+div.zona3gris .span-8:last-child {
+	border: 0;
+}
+div.zona3gris .span-4col:last-child {
+	border: 0;
+}
+div.zona3gris .span-8 h4 {
+	margin-bottom: 0;
+	padding-left: 2em;
+}
+div.zona3gris .span-4col h4 {
+	margin-bottom: 0;
+	padding-left: 2em;
+}
+div.zona3gris .span-8 p {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	margin-bottom: 1.5em;
+	padding: 0 2em 0 2em;
+	color: #696969;
+	line-height: 19px;
+}
+div.zona3gris .span-4col p {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	margin-bottom: 1.5em;
+	padding: 0 2em 0 2em;
+	color: #696969;
+	line-height: 19px;
+}
+div.zona3gris .span-8 a {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	color: #696969;
+}
+
+div.zona3gris .span-4col a {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	color: #696969;
+}
+
+div.zona3gris .span-8 h3 {
+	font-family: 'Montserrat' !important;
+	font-weight: 600!important;
+}
+div.zona3gris .span-4col h3 {
+	font-family: 'Montserrat' !important;
+	font-weight: 600!important;
+}
+div.zona3gris .span-8 a:hover p {
+	color: #D52B1E;
+	text-decoration: none;
+}
+div.zona3gris .span-4col a:hover p {
+	color: #D52B1E;
+	text-decoration: none;
+}
+div.zona3gris .span-8 a:hover {
+	color: #D52B1E;
+	text-decoration: none;
+}
+div.zona3gris .span-4col a:hover {
+	color: #D52B1E;
+	text-decoration: none;
+}
+div.zona3gris p.app_badges {
+	margin-top: 3em;
+}
+
+div.zona3gris p.app_badges a {
+	display: block;
+	float: left;
+	width: 108px;
+	margin-right: 15px;
+}
+
+/*#footer ul li {
+	display: inline;
+	float: left;
+	font-size: 13px;
+	font-size: 13.3px;
+	margin: 0px 0 5px 0;
+	padding: 0 5px 0 5px;
+	line-height: 13px;
+}*/
+
+/*div.zona4oscuro {
+	background: none repeat scroll 0 0 #4E4E4E;
+	height: 22px;
+	padding: 10px 0 2px 0;
+	width: 100%;
+	color: #fff;
+}*/
+
+#footer div.zona4oscuro ul li {
+	font-size: 12px;
+	font-family: "Montserrat";
+}
+
+div.zona4oscuro a {
+	color: #fff;
+}
+
+div.zona4oscuro a:hover {
+	text-decoration: underline,
+}
+
+div.zona4oscuro ul li {
+	padding-top: 5px;
+}
+
+div.zona4oscuro li.footer_logo {
+	padding: 0 25px 0 0 !important;
+}
+
+.footer_logo img {
+	height: 15px;
+}
+
+#pie_zona_1 {
+	margin-left: 0px;
+}
+
+#footer #pie_zona_1 ul {
+	padding-left: 0;
+	margin-right: 0;
+}
+
+#footer ul.left.bgBlanco {
+	display: inline-block;
+	float: left;
+	height: 33px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	width: auto;
+	margin-right: 4px;
+}
+
+#footer ul li.pagosPie {
+	padding: 2px 6px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#footer ul li.pagosPie a {
+	margin-top: 0;
+	width: 106px;
+	height: 30px;
+	background:
+		url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/shared/spritesheet_shared.png)
+		no-repeat -373px -132px;
+}
+
+#footer .blogLinks {
+	float: left;
+}
+
+#footer .blogLinks ul {
+	float: left;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px !important;
+}
+
+#footer .blogLinks ul li {
+	padding-bottom: 0px;
+	margin-right: 5px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+}
+
+#footer .clarelFooterLink:focus {
+	outline: none;
+}
+
+#footer .clarelFooterLink {
+	float: left;
+	display: block;
+	width: 60px;
+	margin-top: 21px;
+	margin-right: 5px;
+}
+
+#footer .clarelFooterLink img {
+	width: 100%;
+}
+
+#footer .diaClubFooterLink {
+	float: left;
+	display: block;
+	width: 75px;
+	margin-top: 12px;
+}
+
+#footer .oportunidadesDia {
+	float: left;
+	margin-top: 14px;
+	width: 95px;
+}
+
+#footer .laPlazaByDia {
+	float: left;
+	margin-top: 17px;
+	width: 85px;
+}
+
+#footer .rightLinks {
+	float: left;
+	margin-right: 0px;
+	padding-left: 0px;
+	margin-left: 13px;
+	margin-bottom: 0px;
+	margin-top: 0px !important;
+}
+
+#footer .rightLinks li {
+	margin-right: 12px;
+	margin-left: 11px;
+}
+
+#footer .rightLinks li.acceso {
+	margin-right: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+}
+
+div#footer #pie_zona_3 h4 {
+	color: #696969;
+	line-height: 1.2;
+	font-family: "Montserrat" !important;
+	font-weight:600!important;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#pie_zona_3 {
+	background-color: #fff;
+}
+
+#pie_zona_4 {
+	display: block;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+#pie_zona_4>ul li {
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 60px;
+	margin-top: 25px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+#pie_zona_4>ul li a {
+	color: #FFFFFF;
+	font-family: "Montserrat", Calibri, 'Cabin', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 4px;
+}
+
+#pie_zona_4>ul li>div.demos, #pie_zona_4>ul li>div.corporate,
+	#pie_zona_4>ul li>div.trabaja {
+	display: inline-block;
+	height: 24px;
+	position: relative;
+	top: -7px;
+	width: 24px;
+}
+
+#pie_zona_4>ul li>div.demos {
+	background: url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/spritesheet.png)
+		-249px -10px no-repeat;
+}
+
+#pie_zona_4>ul li>div.corporate {
+	background: url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/spritesheet.png)
+		-138px -54px no-repeat;
+	margin-bottom: 0;
+	margin-left: -5px;
+	margin-right: 1px;
+	margin-top: 0;
+}
+
+#pie_zona_4>ul li>div.trabaja {
+	background: url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/spritesheet.png)
+		-205px -10px no-repeat;
+}
+
+#pie_zona_4>ul li.acceso {
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 17px;
+	float: right;
+}
+
+#pie_zona_4>ul li.acceso div {
+	background-color: #fff;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #4e4e4e;
+	font-family: "Montserrat", Calibri, "Cabin", sans-serif;
+	margin-top: 0;
+	padding: 7px 28px 7px 35px;
+	position: relative;
+}
+
+#pie_zona_4>ul li.acceso div:before {
+	background: url(https://tutienda.dia.es/_ui/desktop/theme-dia/images/dia/spritesheet.png)
+		-182px -54px no-repeat;
+	height: 24px;
+	width: 24px;
+	content: '';
+	position: absolute;
+	left: 6px;
+	top: 2px;
+}
+
+#pie_zona_4>ul li.acceso a {
+	color: #4E4E4E;
+	font-size: 15px;
+}
+
+.bgBlanco {
+	background: #FFFFFF;
+}
+
+.bgGris, .bgBlanco {
+	background: #FFFFFF;
+	border: 1px solid #d0d0d0;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.app_badges img {
+	width: 100%;
+}
+
+/* STYLE FONTAWESOME
+################################# */
+.fa-eye:before {
+	font-family: "FontAwesome";
+	content: "\f06e";
+}
+
+.fa-eye-slash:before {
+	font-family: "FontAwesome";
+	content: "\f070";
+}
+
+/* STYLE DE PIE
+################################# */
+/*#footer a:hover {
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
+
+@media ( min-width : 1190px) {
+	#footer ul li {
+		padding: 0 5px 0 0px;
+	}
+	#footer #pie_zona_2 ul.left.bgBlanco {
+		padding-left: 9px;
+		padding-right: 9px;
+		margin-right: 7px;
+	}
+}
+*/
+@media ( min-width : 1190px) {
+	.wrapper960 {
+		width: 1220px;
+	}
+}
+/*
+@media ( max-width : 976px) and (min-width: 720px) {
+	.headerFullWide, .zona4pie {
+		width: 1000px !important;
+	}
+	.mainMenu {
+		width: 985px !important;
+	}
+}*/
+/*210420 ESTILOS FOOTER Y HEADER NUEVOS*/
+html{
+    margin: 0;
+    padding: 0; 
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot@mg9q26');
+  src:  url('fonts/icomoon.eot@mg9q26') format('embedded-opentype'),
+    url('fonts/icomoon.ttf@mg9q26') format('truetype'),
+    url('fonts/icomoon.woff@mg9q26') format('woff'),
+    url('fonts/icomoon.svg@mg9q26') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-facebook:before {
+  content: "\ea90";
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-instagram:before {
+  content: "\ea92";
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-twitter:before {
+  content: "\ea96";
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-youtube:before {
+  content: "\ea9d";
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.socialMedia_n a{
+    width: 34px!important;
+    height: 34px!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 50%!important;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0!important;
+    margin:0;
+}
+ul.socialMedia_n{
+    margin-bottom: 25px;
+}
+ul.socialMedia_n li{
+    display: inline-block;
+}
+ul.socialMedia_n li+li {
+    margin-left: 12px;
+}
+.socialMedia_n a.icon-facebook {
+    color: #3b5998;
+}
+.socialMedia_n a.icon-twitter {
+    color: #00aced;
+}
+.socialMedia_n a.icon-youtube {
+    color: #d0021b;
+}
+.socialMedia_n ul li a.icon-instagram {
+    color: #000000;
+}
+.socialMedia_n a.icon-facebook:hover {
+    content: "\ea90";
+    color: #ffffff;
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    transition: 0.5s
+}
+.socialMedia_n a.icon-twitter:hover {
+    color: #ffffff;
+    background-color: #00aced;
+    border: 2px solid #00aced;
+    transition: 0.5s
+}
+.socialMedia_n a.icon-youtube:hover {
+    color: #ffffff;
+    background-color: #d0021b;
+    border: 2px solid #d0021b;
+    transition: 0.5s
+}
+.socialMedia_n a.icon-instagram:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition: 0.5s
+}
+#mobilemenu{
+    display: none;
+}
+#mobilemenu_show{
+    display: none;
+}
+#login-mobile{
+    display: none;
+}
+.openMenuTablet{
+    cursor: pointer;
+}
+.headerFullWide .wrapper960 {
+    position: relative;
+    top: -1px;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.menuHead ul li a:hover {
+    color: black;
+}
+.menuHead ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0px;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    padding: 3px 7px 2px;
+    margin: 0 2px;
+    font-family: 'Montserrat' !important;
+}
+.main_menu ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0px;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0.1px;
+    margin: 0;
+    font-family: 'Montserrat' !important;
+    padding-bottom: 10px;
+}
+.main_menu ul li a:hover {
+    color: black;
+    border-bottom: red solid 2px;
+    padding-bottom: 8px;       
+}
+.menuHead ul li a.active{
+  font-weight:600;
+}
+.menuHead ul li a:before{
+    width: 13px;
+    height: 13px;
+    margin-right:7px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+.menuHead ul li a.svg_recetas:before{
+    content:url('https://tutienda.dia.es/img/headeryfooter/recetas_header_icon.svg');
+}
+.menuHead ul li a.svg_online:before{
+    content:url('https://tutienda.dia.es/img/headeryfooter/icon-header-main-carrito-vac-o-2-outline.svg');
+}
+.menuHead ul li a.svg_clubdia:before{
+    content:url('https://tutienda.dia.es/img/headeryfooter/icon-header-top-club-dia-outline.svg');
+}
+.menuHead ul li a.svg_tutienda:before{
+    content:url('https://tutienda.dia.es/img/headeryfooter/icon-otros-tienda-outline.svg');
+}
+.menuHead ul li a.svg_blog:before{
+    content:url('https://tutienda.dia.es/img/headeryfooter/icon-header-sections-blog-outline.svg');
+}
+.menuHead ul li {
+    display: inline;
+    height: 1px;
+    margin-right:35px;
+}
+.main_menu ul li {
+    display: inline;
+    
+    margin-right:7px;
+}
+.menuHead ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer_area_1 .container_1200{
+    width: 1218px;
+    margin:20px auto 0;
+    padding: 18px 0;
+    border-bottom: solid 1px #efefef;
+    border-top: solid 1px #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    font-family: 'Montserrat' !important;
+    font-size:13px;
+    margin-left: auto;
+}
+.login .login-section a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0px;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0.1px;
+    margin: 0 2px;
+    font-family: 'Montserrat' !important;
+    padding-bottom:8px;
+}
+.login_buttons ul li.loginyregistro a{
+	border: 1px solid #424242 ;
+	border-radius: 7px!important;
+	text-align: center;
+}
+.login_buttons ul li.loginyregistro{
+	display: flex;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e2dfdf;
+}
+div.login_buttons ul li.loginyregistro a.btn-registro {
+    background-color: #424242;
+    color: #ffffff!important;
+}
+div.login_buttons ul li:last-child, div.login_buttons ul li.clubdia{
+	border-bottom: 1px solid #e2dfdf;
+}
+div#user-section button, div.login-section button{
+	border:none;
+	background:none;
+	cursor:pointer;
+}
+div.login-section button:before{
+	content: '';
+    width: 22px;
+    height: 22px;
+    background: url(https://tutienda.dia.es/img/user_dia.svg) no-repeat 0 0 scroll transparent;
+    margin: -6px 6px !important;;
+    display: inline-block;    
+}
+div#user-section button:before{
+	content: '';
+    width: 22px;
+    height: 22px;
+    background: url(https://tutienda.dia.es/img/user_dia_logged.svg) no-repeat 0 0 scroll transparent;
+    margin: -6px 6px !important;;
+    display: inline-block;  
+}
+div#user-section button.alert:before{
+	background: url(https://tutienda.dia.es/img/user_dia_logged_noactive.svg) no-repeat 0 0 scroll transparent;
+}
+.activation_message{
+	padding:9px;
+	background-color: #db8910;
+	color:white;
+	line-height:20px;
+}
+.activation_message a{
+	color: white!important;
+    font-weight:bold!important;
+    text-align: center;
+    padding: 0!important;
+}
+.login .login-section a:hover{
+    color:red;
+}
+.boldred{
+    color:#db2120;
+    font-family: 'Montserrat' !important;
+    font-weight:bold;
+}
+#footer_area_1 div.boldred{
+    font-size:16px;
+    margin-right: 30px;
+}
+.column_footer_n ul{
+    list-style-type: none;
+    margin-top: 24px;
+}
+.legales_logo .container_1200 ul{
+    list-style-type: none;
+    height: 28px;
+}
+.legales_logo .container_1200 ul a{
+	font-weight:bold;
+}
+.legales_logo .container_1200 ul li{
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0px;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    margin: 0 2px;
+    font-family: 'Montserrat' !important;
+    padding-bottom: 20px;
+}
+.column_footer_n ul li a{
+    color: #333333;
+    text-decoration: none;
+    font-weight: 600!important;
+    border-radius: 0px;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    margin: 0 2px;
+    font-family: 'Montserrat' !important;
+    padding-bottom: 20px;
+}
+#footer_area_3 .column_footer_n h3{
+    font-weight: normal!important;
+    font-size: 16px;
+    color:#7c7c7c;
+}
+#footer_area_3, #footer_area_4{
+    padding-top: 24px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat' !important;    
+}
+#footer_area_4 .button_footer{
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 13px 20px;
+    font-size: 13px;
+    font-weight:500;    
+}
+#footer_area_4 .button_footer a{
+    color:#333333;
+    text-decoration: none;
+}
+#footer_area_4 .button_footer a:hover{
+    color:red;
+    text-decoration: none;
+}
+#footer_area_4 .button_footer:nth-last-child(2){
+    margin-right: 29px; 
+}
+.invita {
+    background-image: url('https://tutienda.dia.es/img/headeryfooter/phone.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 50%;
+    background-size: 13px;
+    padding-left: 40px!important;
+}
+.legales_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat' !important; 
+    margin-bottom: 20px; 
+}
+.legales_logo .container_1200 .area4_logo a img{
+    width: 51px;
+    height: 28px;
+}
+.legales_logo .container_1200 ul li a{
+    font-weight: 600!important;
+    color: #424242;
+    text-decoration: none;
+}
+.legales_logo .container_1200 ul li a:hover{
+    color: red;
+}
+@media (min-width: 1218px) {
+  .headerFullWide .wrapper960, .mainMenu .wrapper960 {
+     width: 1218px!important;
+     margin:0 auto;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border: solid 1px #efefef;
+     background-color: #f9f9f9;
+ }
+ .headerFullWide .main_menu_wrapper {
+    width: 1218px;
+    margin: 0 auto;
+    padding: 18px 0;
+    border-bottom: solid 1px #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.column_footer_n:nth-last-child(1){
+    text-align: right;
+    border-right: none;
+    padding: 0!important;
+    width: 22%;
+    margin-left: auto;
+}
+#footer_area_3{
+    width: 1218px;
+    margin:10px auto 0;
+    padding: 18px 0 28px;
+    border-bottom: solid 1px #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+}
+#footer_area_4{
+    width: 1218px;
+    margin:10px auto 0;
+    padding: 18px 0 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+.headerFullWide .main_menu_wrapper .logotipo{
+    margin-left: 8px;
+    height: 36px;
+    margin-right: 15px;
+}
+.login .login-section a.registro{
+    margin-right: 15px;
+}
+.column_footer_n {
+    border-right: solid 1px #efefef;
+    width: 21%;
+    padding:0 2%;
+}
+.area4_logo{
+    margin-right: 34px;
+}
+.legales_logo .container_1200 ul li{
+    padding-right: 18px;
+    padding-left: 18px;
+    border-right: 1px solid #e5dbdb;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.legales_logo .container_1200 ul.footer_payments-methods li{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: none;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.legales_logo .container_1200 ul.footer_payments-methods{
+    margin-left:auto;
+}
+.legales_logo .container_1200 ul li:nth-last-child(1){
+    border-right:none;
+}
+.legales_logo .container_1200{
+    width: 1218px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer_payments-methods .footer_logo_bizum{
+   height: 28px; 
+}
+}
+@media (max-width: 1217px) {
+    .headerFullWide .wrapper960, .mainMenu .wrapper960 {
+     width: 100%;
+     margin:0 auto;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border: solid 1px #efefef;
+     background-color: #f9f9f9;
+ }
+.headerFullWide .main_menu_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px 0;
+    border-bottom: solid 1px #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer_area_1 .container_1200{
+    width: 100%;
+}
+#footer_area_3{
+    width: 100%;
+    margin:10px auto 0;
+    padding: 18px 0 28px;
+    border-bottom: solid 1px #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+}
+#footer_area_4{
+    width: 100%;
+    margin:10px auto 0;
+    padding: 18px 0 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+.headerFullWide .main_menu_wrapper .logotipo{
+    margin-left: 8px;
+    height: 36px;
+    margin-right: 30px;
+}
+.login .login-section a.registro{
+    margin-right: 15px;
+}
+.login .login-section a.acceder{
+    margin-right: 15px;
+}
+.column_footer_n {
+    border-right: solid 1px #efefef;
+    width: 17%;
+    padding:0 2%;
+}
+.column_footer_n:nth-last-child(1){
+    text-align: right;
+    border-right: none;
+    padding: 0 15px 0 0!important;
+    width: 35%;
+    margin-left: auto;
+}
+.area4_logo{
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.legales_logo .container_1200 ul li{
+    padding-right: 8px;
+    padding-left: 0px;
+    border-right: 1px solid #e5dbdb;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.legales_logo .container_1200 ul.footer_payments-methods li{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: none;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.legales_logo .container_1200 ul.footer_payments-methods{
+    margin-left:auto;
+}
+.legales_logo .container_1200 ul li:nth-last-child(1){
+    border-right:none;
+}
+.legales_logo .container_1200{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer_payments-methods img{
+    width: auto;
+}
+.footer_payments-methods .footer_logo_bizum{
+   height: 24px; 
+}
+.footer_payments-methods .footer_logo_globalSign{
+   height: 18px; 
+}
+.footer_payments-methods .footer_logo_finandia{
+   height: 14px; 
+}
+.footer_payments-methods .footer_logo_mastercard{
+   height: 24px; 
+}
+.footer_payments-methods .footer_logo_visa{
+   height: 14px; 
+}
+.footer_payments-methods .footer_logo_paypal{
+   height: 14px; 
+}
+}
+@media (max-width: 900px) {
+.login-box-container .inner-box:before{
+    right: 40%;
+}
+.headerFullWide .main_menu_wrapper .logotipo{
+    margin-left: 8px;
+    height: 36px;
+    margin-right: 10px!important;
+}
+.main_menu ul li {
+    display: inline;
+    height: 1px;
+    margin-right: 4px;
+}
+.container_1200 .area4_logo {
+    padding: 15px 0;
+    margin:0 auto;
+    border-top: solid 1px #efefef;
+    width: 100%!important;
+    text-align: center;
+}
+   .legales_logo .container_1200{
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.legales_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.legales_logo .container_1200 ul.footer_payments-methods {
+    margin-left: 0;
+}
+.legales_logo .container_1200 ul {
+    list-style-type: none;
+    height: 28px;
+    padding: 15px 0;
+    margin:0 auto!important;
+    border-top: solid 1px #efefef;
+    text-align: center;
+}
+/*MOBILE*/
+.header_mobile{
+    display: flex;
+    flex-direction: row;
+    padding:10px 0px;
+    justify-content: space-around;
+    border-bottom: solid 1px #efefef;
+}
+.openMenuTablet, .openUserTablet{
+    width: 34px;
+    height:34px;
+}
+.openUserTablet img{
+    width:100%;
+}
+#web-menu-section-mobile{
+    padding: 10px 20px;
+    border: solid 1px #efefef;
+    background-color: #f9f9f9;
+}
+#web-menu-section-mobile ul{
+    display: flex;
+    flex-direction: column;
+}
+#web-menu-section-mobile ul li{
+    margin-bottom: 35px;
+
+}
+#web-menu-section-mobile ul li a, .main_menu_mobile ul li a{
+    font-size: 18px;
+    font-family: 'Montserrat' !important; 
+    text-decoration:none;
+    color:#333333;
+}
+.main_menu_mobile ul li{
+    margin-bottom:15px;
+}
+.main_menu_mobile ul{
+    padding:25px 35px;
+    list-style-type: none;
+    border-bottom: solid 1px #efefef;
+
+}
+#web-menu-section-mobile ul li a:before{
+    margin-right:18px;
+    display: inline-block;
+}
+#desktopmenu{
+    display:none;
+}
+#mobilemenu{
+    display: block;
+}
+#login-mobile{
+    float: right;
+    font-size: 18px;
+    font-family: 'Montserrat' !important;
+    padding:40px 20px;
+    border-bottom-left-radius: 10px;
+    background: #cccccc;  
+}
+#login-mobile a.registro{
+    padding: 10px 20px;
+    background:#efefef;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    color: #424242;
+    text-decoration: none;
+    margin-right: 15px;
+}
+#login-mobile a.acceder{
+    padding: 10px 20px;
+    background:#424242;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    color: #efefef;
+    text-decoration: none;
+}
+}
+@media (max-width: 650px) {
+    #footer_area_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer_area_4 .button_footer:nth-last-child(2) {
+    margin-right: 0px;
+}
+.button_footer{
+    width: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#footer_area_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.column_footer_n {
+    border-right: none;
+    width: 100%;
+    padding: 0 6%;
+    border-bottom: 1px solid #efefef;
+    margin-bottom:20px;
+}
+.column_footer_n:nth-last-child(1) {
+    text-align: left;
+    border-right: none;
+    width: 90%!important;
+    padding: 0 6%!important;
+    border-bottom: none;
+    margin-bottom:20px;
+}
+.legales_logo .container_1200 ul {
+    height: auto;
+    width:100%;
+}
+.legales_logo .container_1200 ul li {
+    display: block;
+    border-right: none;
+}
+.legales_logo .container_1200 ul.footer_payments-methods li{
+    display: inline-block;
+}
+}       
+/*210420 ESTILOS FOOTER Y HEADER NUEVOS*/    
